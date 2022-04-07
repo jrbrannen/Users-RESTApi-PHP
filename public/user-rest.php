@@ -17,3 +17,5 @@ array_splice($userArray, 2, 1);
 
 // convert to json
 echo json_encode($userArray);
+
+?>

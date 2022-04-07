@@ -14,7 +14,7 @@ $userList = $user->getListFiltered(
 
 // splice each user array stored in the $userList array 
 // to remove the password element from each user
-for($i=0;$i < count($userList); $i++){
+for($i=0; $i < count($userList); $i++){
     array_splice($userList[$i], 2, 1);
 }
 
